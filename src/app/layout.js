@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hecon store",
+  title: "Hecon Shop",
   description: "The style you'll never find, only at Hecon store",
 };
 
