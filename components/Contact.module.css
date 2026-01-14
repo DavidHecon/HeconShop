@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    text-align: center;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container h1{
+    color: black;
+    padding: 50px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #ddd;
+  font-size: 16px;
+  min-width: 200px;
+  color: black;
+}
+
+
+.textarea {
+  padding: 10px;
+  border: none;
+  background-color: #ddd;
+  font-size: 16px;
+  min-height: 120px;
+  color: black;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 auto;
+  display: block;
+}
